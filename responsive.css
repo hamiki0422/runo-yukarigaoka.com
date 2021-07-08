@@ -1,0 +1,110 @@
+
+
+@media screen and (max-width: 768px){
+
+	/* スマトフォン向けナビ */
+.sp_navi_content {
+	width: 100%;
+	color: #0cf;
+	background-color: #7095cc;
+	height: 20px;
+	display: block!important;
+}
+
+
+.sp_navi {
+	display:flex;
+}
+.sp_navi li {
+	list-style: none;
+	width: 33.3%;
+    padding: 45px 0;
+    text-align: center;
+    position: relative;
+}
+.sp_navi li i {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sp_navi li span {
+	width: 100%;
+    color: #265698;
+    font-size: 4vw;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.sp_navi li small{
+	font-size: 1rem;
+    display: block;
+}
+
+
+
+
+/* ヘッダー画像 */
+.header_image {
+	background-image: url(images/topS.svg);
+	width: 100%;
+	height: 365px;
+	padding-top: 73.14%; /* 使用した画像サイズの高さ÷横幅×100 */
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	
+}
+
+.container {
+	width: 100%;
+} 
+
+.list_nav_header li {
+	display: none;
+
+
+}
+
+.container > img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+  }
+
+.about_item img{
+	max-width: 100%;
+	height: auto;
+
+}
+
+.voice_item {
+	flex-wrap: wrap;
+
+}
+
+.text_box2 {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.text_content {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box2 {
+	text-align: left;
+
+}
+
+
+
+
+	.ps_br{
+		display: block; /* PCを改行して */
+	  }
+
+}
