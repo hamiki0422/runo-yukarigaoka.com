@@ -375,6 +375,33 @@ span.sub_title {
   width: 100%;
 }
 
+/* 地図の横幅を指定するための要素 */
+.map-wrap {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  max-width: 80%; /* ここに横幅を指定 */
+}
+
+/* Google Mapを囲う要素 */
+.dmap {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 75%; /* 比率を4:3に固定 */
+
+}
+
+/* Google Mapのiframe */
+.dmap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px;
+}
+
+
 /*--------------------------------------
 footer
 --------------------------------------*/
