@@ -1,0 +1,130 @@
+@media screen and (min-width:769px){
+    /* PC 769px以上 */
+  html{
+    font-size: 16PX;
+  }
+
+/* スマホ用お問い合わせ非表示 */
+  .for-sp{
+    display:none;
+  }
+
+/* 営業時間 */
+   .box {
+    display: none;
+  }
+
+}.sample{
+  position: absolute;
+  top: 70px;
+  left: 25%;
+}
+.sample img {
+  width: 80%;
+}
+
+
+@media screen and (max-width:768px){
+  /* タブレット 768px以下 */
+  html{
+    font-size: 2vw;
+  }
+/* ヘッダーのお問い合わせ */
+  .header_navgroup{
+    display: none;
+  }
+
+/* menuの料金表 */
+.menu > img {
+  width: 85%;
+}
+
+
+  /* infomationの感染予防 */
+.infomation > img {
+   width: 40%;
+}
+
+  /* コンタクトの内容 */
+.contact_lists {
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  }
+  
+
+
+}
+
+
+
+/* mainのユーカリの表示サイズ */
+/* .sample{
+   position: absolute;
+   top: 60px;
+  left: 10%;
+}
+.sample img {
+  width: 75%;
+}  */
+
+@media screen and  (max-width:480px){
+  /* スマートフォン 480px以下 */
+  html{
+    font-size: 3.4vw;
+  }
+
+  .header_navgroup{
+    display: none;
+  }
+  .main_box {
+    flex-direction: column;
+  }
+
+  /* pc改行の非表示 */
+  br.pc {
+    display: none;
+}
+/* スマホ改行の表示 */
+br.sp {
+  display: inline;
+}
+
+
+/* mainのユーカリの表示サイズ */
+.sample{
+  top: 60px;
+  left: 0;
+  padding-left: 1rem;
+}
+/* mainのユーカリの表示サイズ */
+.sample img{
+  width: 67%;
+
+}
+/* massageの店内画像表示 */
+.massage > img {
+  width: 90%;
+}
+.img-flex-3 {
+width: 90%;
+flex-direction: column;
+
+}
+
+/* テキストのスマホ表示 */
+p.text {
+  font-size: 1rem;
+  line-height:2 ;
+}
+
+/* menuの料金表 */
+.menu > img {
+  width: 95%;
+}
+
+.infomation > img {
+  width: 80%;
+}
+
+}
