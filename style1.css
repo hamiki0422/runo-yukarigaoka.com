@@ -125,8 +125,8 @@ a {
 .reservation::before{
   content: '';/*何も入れない*/
   display: inline-block;/*忘れずに！*/
-  width: 30px;/*画像の幅*/
-  height: 30px;/*画像の高さ*/
+  width: 22px;/*画像の幅*/
+  height: 22px;/*画像の高さ*/
   background: url(images/calender-icon.png) no-repeat;
   background-size: contain;
   vertical-align: middle;
@@ -490,5 +490,6 @@ footer > img {
   width: 100%;
   padding:20px;
 }
+
 
 
