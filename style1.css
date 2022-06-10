@@ -3,6 +3,7 @@ html {
   color:#323232 ;
   line-height: 1.75; /*デフォルト16PX×1.75＝28px*/
   letter-spacing: 0.175rem;/*デフォルト16PX×0.175＝2.8px*/
+
 }
 
 /* 後で色を白に変える */
@@ -81,7 +82,7 @@ a {
     /* font-weight: 600; */
     background-color: #B1B597;
     border-radius:4px;
-    padding:3px 15px;
+    padding:10px 15px;
     box-shadow:0 3px #8a8d78;
     transition-duration: 0.2s;
     line-height: 2;
@@ -121,16 +122,18 @@ a {
   box-shadow:0 3px #c5773b;
 
 }
-
-
 .reservation::before{
-  font-family: "Font Awesome 5 Free";
-  content: '\f073';
-  font-weight: 400;
-  color: #fff;
-  font-size: 1.5rem;
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 30px;/*画像の幅*/
+  height: 30px;/*画像の高さ*/
+  background: url(images/calender-icon.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+
 
 }
+
 
 .header_btn:hover{
   box-shadow:none;
@@ -151,7 +154,7 @@ main
     display:grid;
     place-items: center;
     height: 100vh;
-    background-image: url("images/bg3-min.png");
+    background-image: url("images/bg1.png");
     background-size: cover;
     background-position: center;
     /* position: relative; */
@@ -258,7 +261,7 @@ br.sp {
 PROFILE
 --------------------------------------*/
 .profile {
-  background-image: url(images/bg2-min.png);
+  background-image: url(images/bg2.png);
 }
 
 .flex_style {
@@ -312,7 +315,7 @@ infomation
 --------------------------------------*/
 
 .infomation {
-  background-image: url("images/bg2-min.png");
+  background-image: url("images/bg2.png");
 }
 
 .infomation > img {
@@ -451,7 +454,10 @@ footer > img {
   padding:0;
   margin:0;
   width:100%;
+
 }
+
+
 
 #sp-fixed-menu li{
   justify-content: center;
@@ -461,6 +467,7 @@ footer > img {
   margin:0;
   font-size: 14px;
   border-right: 1px solid #fff;
+
 }
 
 /*左側メニューを緑色に*/
@@ -468,10 +475,12 @@ footer > img {
   background: #B1B597;
 }
 
-/*左側メニューをオレンジ色に*/
+/*メニュー右側をオレンジ色に*/
 #sp-fixed-menu li:last-child{
   background: #f3a324;
 }
+
+
 
 /*ボタンを調整*/
 #sp-fixed-menu li a{
@@ -481,4 +490,5 @@ footer > img {
   width: 100%;
   padding:20px;
 }
+
 
