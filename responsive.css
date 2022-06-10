@@ -102,10 +102,16 @@ br.sp {
   width: 67%;
 
 }
-/* massageのbill画像表示 */
+/* massageの店内画像表示 */
 .massage > img {
-  width: 100%;
+  width: 90%;
 }
+.img-flex-3 {
+width: 90%;
+flex-direction: column;
+
+}
+
 /* テキストのスマホ表示 */
 p.text {
   font-size: 1rem;
