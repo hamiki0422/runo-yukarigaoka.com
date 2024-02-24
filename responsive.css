@@ -106,11 +106,16 @@ br.sp {
 .massage > img {
   width: 90%;
 }
-.img-flex-3 {
+/* styleのヘアースタイル画像表示 */
+.style > img {
+  width: 90%;
+}
+
+/* .img-flex-3 {
 width: 90%;
 flex-direction: column;
 
-}
+} */
 
 /* テキストのスマホ表示 */
 p.text {
